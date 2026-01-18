@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* .squiggle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 200vw;
+  z-index: 1;
+}
+
+.squiggle path{
+  stroke: blue;
+} */
+
+.page {
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.content {
+    height: 150%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_title {
+    font-size: 3rem;
+}
+
+.header_subtitle {
+    font-size: 1.2rem;
+}
+
+.header_img {
+    height: 18rem;
+    width: auto;
+}
+
+#memories {
+    margin-top: 30rem;
+}

@@ -1,22 +1,7 @@
 import "./App.css";
 import Header from "./components/Header";
-// import { useEffect, useRef } from "react";
 
 function App() {
-    // const containerRef = useRef(null);
-    // const [isVisible, setIsVisible] = useState(false);
-
-    // function handleScroll(e: React.UIEvent) {
-    //     if (rotation < 40) {
-    //         e.preventDefault();
-    //         console.log("scrolling!");
-    //         setRotation((prevValue) => prevValue + 2);
-    //     } else {
-    //         console.log("scrolling");
-    //         return;
-    //     }
-    // }
-
     // useEffect(() => {
     //     const observer = new IntersectionObserver((entries) => {
     //         const [entry] = entries;
@@ -30,6 +15,7 @@ function App() {
     //         if (containerRef.current) observer.unobserve(containerRef.current);
     //     };
     // }, []);
+
     return (
         <main className="page">
             <section className="content">

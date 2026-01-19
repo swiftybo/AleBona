@@ -18,12 +18,10 @@ function App() {
 
     return (
         <main className="page">
-            <section className="content">
-                <Header />
-                <div>
-                    <h1 id="memories">Não perca suas memórias antigas</h1>
-                </div>
-            </section>
+            <Header />
+            <div>
+                <h1 id="memories">Não perca suas memórias antigas</h1>
+            </div>
         </main>
     );
 }

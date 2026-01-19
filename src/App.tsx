@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
+import HeaderVideo from "./components/HeaderVideo";
 import MemoryGallery from "./components/MemoryGallery";
 
 function App() {
@@ -19,9 +20,8 @@ function App() {
 
     return (
         <main className="page">
-            <Header />
-            <MemoryGallery />
-            <div></div>
+            <HeaderVideo />
+            {/* <MemoryGallery /> */}
         </main>
     );
 }

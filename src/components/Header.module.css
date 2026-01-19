@@ -1,0 +1,19 @@
+.header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_title {
+    font-size: 3rem;
+}
+
+.header_subtitle {
+    font-size: 1.2rem;
+}
+
+.header_img {
+    height: 18rem;
+    width: auto;
+}

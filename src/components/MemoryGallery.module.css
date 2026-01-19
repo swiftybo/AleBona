@@ -1,0 +1,13 @@
+.memories {
+    position: relative;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.memories_video {
+    position: absolute;
+    /* z-index: 1; */
+}
+
+.memories_statement

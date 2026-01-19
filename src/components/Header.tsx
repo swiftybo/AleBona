@@ -26,6 +26,7 @@ function Header() {
                     Conversão de VHS e cassete para digital
                 </div>
             </div>
+            {/* BUG need to fix image covering title text on rotation */}
             <motion.img
                 src={vhs_img}
                 alt="Image of VHS and cassette"

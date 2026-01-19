@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
+import MemoryGallery from "./components/MemoryGallery";
 
 function App() {
     // useEffect(() => {
@@ -19,9 +20,8 @@ function App() {
     return (
         <main className="page">
             <Header />
-            <div>
-                <h1 id="memories">Não perca suas memórias antigas</h1>
-            </div>
+            <MemoryGallery />
+            <div></div>
         </main>
     );
 }

@@ -1,13 +1,18 @@
 .memories {
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .memories_video {
-    position: absolute;
+    position: relative;
     z-index: 0;
 }
 
 .memories_title {
+    position: absolute;
+    background-color: transparent;
     z-index: 1;
-    color: red;
+    color: white;
 }

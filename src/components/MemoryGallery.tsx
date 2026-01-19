@@ -8,8 +8,8 @@ export default function MemoryGallery() {
                 src={VHSVideo}
                 className={classes.memories_video}
                 autoPlay
-                muted
                 loop
+                muted
             />
             <h1 className={classes.memories_title}>
                 Não perca suas memórias antigas
